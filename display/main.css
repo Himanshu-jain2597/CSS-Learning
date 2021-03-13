@@ -41,9 +41,20 @@ main {
   display: inline-block;
 }
 
-.main-header > nav {
+
+
+.main-nav {
   display: inline-block;
+  width: calc(100% - 49px);
+  text-align: right;
 }
+
+.main-nav__items {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
 .main-nav__item {
   /* in inline we cannot set margin top  right */
   display: inline-block;
