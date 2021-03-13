@@ -1,0 +1,20 @@
+
+/* global selector select all element  */
+body  {  
+    font-family: sans-serif;
+}
+
+
+#product-overview {
+  background-color: #ff168f;
+}
+
+
+.section-title {
+    color: green;
+}
+
+#product-overview h1 {
+  color: white;
+  font-family: "Anton", sans-serif;
+}
