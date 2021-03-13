@@ -1,0 +1,8 @@
+Priority Order ( lowest to highest):- 
+
+
+
+1. Tag Selector - lowest 
+2. class pseudo and attribute
+3. Id 
+4. Inline - highest 
