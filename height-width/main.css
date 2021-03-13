@@ -1,0 +1,27 @@
+/* global selector select all element  */
+body {
+  font-family: sans-serif;
+  margin: 0px;
+}
+
+main {
+  height: 200px;
+}
+/* element like div , seection are block level element which take full width
+  inline element do not take full width
+*/
+#product-overview {
+  background-color: #ff168f;
+  width: 700%;
+  /* height is relative to parent element if parent height(main) is 200 px then it will take 100% of parent */
+  height: 100%;
+}
+
+.section-title {
+  color: green;
+}
+
+#product-overview h1 {
+  color: white;
+  font-family: "Anton", sans-serif;
+}
