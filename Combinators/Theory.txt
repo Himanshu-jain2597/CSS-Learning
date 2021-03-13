@@ -1,22 +1,45 @@
 Adjacent Sibling :- 
 
-div +p {
+h2 +p {
 
 }
 
+Example:- 
+<div>
+<h2> hello</h2>
+<p> aplied </p>  // applied to this 
+<h2> hello1</h2>
+<h3> hello2 </h3>
+<p> not applied </p> // not applied to this 
+
+</div>
 
 Genral Sibling :-  
 
-div ~p {
+h2 ~p {
 
 }
+
+Example :- 
+<h2> hello</h2>
+<p> aplied </p>  // applied to this 
+<h2> hello1</h2>
+<h3> hello2 </h3>
+<p>  applied </p> //  applied to this 
 
 
 Child  :- 
 
-div >p {
+div >p {      // direct child of div 
 
 }
+<div>
+<p> aplied </p>  // applied to this 
+<h2> hello1</h2>
+<h3> hello2 </h3>
+</div>
+<p> not  applied </p> //  applied to this 
+
 
 
 descent :- 
