@@ -1,0 +1,26 @@
+Adjacent Sibling :- 
+
+div +p {
+
+}
+
+
+Genral Sibling :-  
+
+div ~p {
+
+}
+
+
+Child  :- 
+
+div >p {
+
+}
+
+
+descent :- 
+
+div p {
+
+}
